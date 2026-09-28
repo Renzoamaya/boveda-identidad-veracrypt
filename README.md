@@ -45,9 +45,3 @@ El volumen fue desmontado ("Dismount") al finalizar, desapareciendo de la unidad
 
 - Las contraseñas reales nunca se muestran en las capturas.
 - La contraseña de VeraCrypt fue guardada en KeePassXC antes de cerrar el volumen (no hay recuperación posible si se pierde).
-
-## Nota adicional sobre las capturas
-
-Tanto KeePassXC como VeraCrypt (desde su versión 1.26.24) incluyen por defecto una protección anti-capturas de pantalla, pensada para bloquear herramientas como Windows Recall o software espía que registre la pantalla. Para tomar las capturas de este ejercicio fue necesario:
-- En KeePassXC: activar temporalmente "Allow Screen Capture" desde el menú Vista.
-- En VeraCrypt: desactivar temporalmente la opción en Configuración → Rendimiento/Configuración del controlador (requiere permisos de administrador y reiniciar Windows).
